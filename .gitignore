@@ -1,1 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
 
+# Test artifacts
+screenshots/*
+!screenshots/.gitkeep
+
+videos/*
+!videos/.gitkeep
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
